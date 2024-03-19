@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Background</title>
+    <style>
+        /* Background Warna */
+        body {
+            background-color: #b1acac; /* Warna abu-abu */
+            color: #fff6f6; /* Warna teks hitam */
+            font-family: Arial, sans-serif; /* Font family */
+            padding: 20px;
+        }
+
+        /* Background Campuran (Gradient) */
+        .gradient-background {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient dari merah ke kuning */
+            color: #fff; /* Warna teks putih */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+        }
+
+        /* Background Gambar */
+        .image-background {
+            width: 960px;
+            height: 500px;
+            border: 2px solid black;
+            margin: 0 auto;
+            background: url('strawberries.jpg') bottom right / cover no-repeat; /* Gambar latar belakang */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Warna</h1>
+    <p>Ini adalah background dengan warna abu-abu.</p>
+
+    <div class="gradient-background">
+        <h2>Background Campuran (Gradient)</h2>
+        <p>Ini adalah background dengan campuran warna gradient dari merah ke kuning.</p>
+    </div>
+
+    <div class="image-background">
+        <h2>Background Gambar</h2>
+        <p>Ini adalah background dengan gambar latar belakang.</p>
+    </div>
+</body>
+</html>
